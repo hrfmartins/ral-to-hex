@@ -1,29 +1,29 @@
 {
-	"name": "ral-to-hex",
-	"description": "Convert RAL color codes to HEX.",
-	"version": "0.0.0",
-	"keywords": [
-		"color",
-		"colour",
-		"RAL",
-		"HEX",
-		"convert"
-	],
-	"author": "Julius Tens <mail@juliustens.eu>",
-	"homepage": "https://github.com/juliuste/ral-to-hex",
-	"repository": "juliuste/ral-to-hex",
-	"bugs": "https://github.com/juliuste/ral-to-hex/issues",
-	"main": "index.js",
-	"files": ["index.js", "colours.json"],
-	"dependencies": {
-	},
-	"devDependencies": {
-		"tape": "^4.6.3"
-	},
-	"scripts": {
-		"test": "node test.js",
-		"prepare": "npm test"
-	},
-	"engines": {"node": ">=6"},
-	"license": "MIT"
+  "name": "ralex",
+  "description": "Convert RAL color codes to HEX.",
+  "version": "0.0.4",
+  "keywords": [
+    "color",
+    "colour",
+    "RAL",
+    "HEX",
+    "convert"
+  ],
+  "author": "Hugo Martins <hugo@fecha.nl>",
+  "homepage": "https://github.com/hrfmartins/ralex",
+  "main": "src/index.ts",
+  "files": [
+    "index.ts",
+    "colours.json"
+  ],
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "license": "MIT"
 }

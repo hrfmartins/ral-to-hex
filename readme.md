@@ -2,29 +2,17 @@
 
 Convert RAL colour codes to HEX codes. Data taken from [this gist](https://gist.github.com/lunohodov/1995178).
 
-[![npm version](https://img.shields.io/npm/v/ral-to-hex.svg)](https://www.npmjs.com/package/ral-to-hex)
-[![Build Status](https://travis-ci.org/juliuste/ral-to-hex.svg?branch=master)](https://travis-ci.org/juliuste/ral-to-hex)
-[![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/ral-to-hex.svg)](https://greenkeeper.io/)
-[![dependency status](https://img.shields.io/david/juliuste/ral-to-hex.svg)](https://david-dm.org/juliuste/ral-to-hex)
-[![dev dependency status](https://img.shields.io/david/dev/juliuste/ral-to-hex.svg)](https://david-dm.org/juliuste/ral-to-hex#info=devDependencies)
-[![license](https://img.shields.io/github/license/juliuste/ral-to-hex.svg?style=flat)](LICENSE)
-[![chat on gitter](https://badges.gitter.im/juliuste.svg)](https://gitter.im/juliuste)
-
 ## Installation
 
 ```bash
-npm install --save ral-to-hex
+npm install --save ralex
 ```
 
 ## Usage
 
-```js
-const hex = require('ral-to-hex')
+```ts
+import { ralToHex } from 'ralex'
 
-let colour1 = hex(5025) // '#2A6478' (RAL 5025)
-let colour2 = hex(2013) // '#C35831' (RAL 2013)
+const colour1 = ralToHex(5025) // '#2A6478' (RAL 5025)
+const colour2 = ralToHex(2013) // '#C35831' (RAL 2013)
 ```
-
-## Contributing
-
-If you found a bug, want to propose a feature or feel the urge to complain about your life, feel free to visit [the issues page](https://github.com/juliuste/ral-to-hex/issues).
